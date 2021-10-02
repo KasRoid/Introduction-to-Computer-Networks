@@ -12,3 +12,10 @@ It is composed of two main aspects
   - Wireless media
 - Logical Connection
   - Data transporting across the physical media
+
+## Basic Computer Networking Rules
+
+- The computers in a network must use the same procedures for sending and receiving data. We call these **communication protocols**.
+- Data must be delivered **uncorrupted**.
+- Computers in a network must be capable of determining the origin and destination of a piece of information.
+  - IP and Mac Address
