@@ -45,3 +45,23 @@ It is composed of two main aspects
   - Examples
     - The internet
     - Google Offices in Different States
+
+## Peer-to-Peer vs. Client-Server Architecture
+
+Peer-to-Peer
+
+- All Computers on the network are peers
+  - No dedicated servers
+  - There's no centralized control over shared resoureces
+- Any device can share its resoureces as it pleases
+- All Computers can act as either a client or a server
+- Easy to setup, and common in homes and small businesses
+
+Client-Server
+
+- The network is composed of client and servers
+  - Servers provide resoureces
+  - Clients receive resoureces
+- Servers provide centralized control over network resoureces(files, printers, etc.)
+- Centralizes user accounts, security, and access controls to simplify network administration
+- More difficult to setup and requires an IT administrator
