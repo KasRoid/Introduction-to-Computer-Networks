@@ -19,3 +19,29 @@ It is composed of two main aspects
 - Data must be delivered **uncorrupted**.
 - Computers in a network must be capable of determining the origin and destination of a piece of information.
   - IP and Mac Address
+
+## Types of Networks (by Size)
+
+- Personal Area Network (PAN)
+  - Ultra small networks used for personal use to share data from one device to another
+  - Examples
+    - Smart Phone to Laptop
+    - Smart Watch to Smart Phone
+- Local Area Network (LAN)
+  - A computer network within a small geographical area, such as a single room, building or group of buildings.
+  - Examples
+    - Home Network
+    - Small Office Network
+- Wireless Local Area Network (WLAN)
+  - A LAN that's fully dependent on wireless connectivity
+  - Most home networks are WLANs
+- Campus Area Network (CAN)
+  - A computer network of multiple interconnected LANs in a limited geographical area, such as a corporate business park, government agency, or university campus.
+- Metropolitan Area Network (MAN)
+  - A computer network that interconnects users with computer resoureces in a city.
+  - Larger than a campus area network, but smaller than a wide area network.
+- Wide Area Network (WAN)
+  - A computer network that extends over a large geographical distance, typically multiple cities and countries.
+  - Examples
+    - The internet
+    - Google Offices in Different States
