@@ -65,3 +65,13 @@ Client-Server
 - Servers provide centralized control over network resoureces(files, printers, etc.)
 - Centralizes user accounts, security, and access controls to simplify network administration
 - More difficult to setup and requires an IT administrator
+
+## Why Build a Computer Network?
+
+- Before computer networks, people sent and received information by hand, using the postal service. this is slow and can be unreliable.
+- Computer networks enable faster, more efficient modes of communication
+  - email
+  - video conferencing
+- Computer networks and the sharing of electronic data encourage the use of standard policies and procedures
+- Computer networks provide backup and recovery support for our data
+- Computer networks lead to cost savings.
