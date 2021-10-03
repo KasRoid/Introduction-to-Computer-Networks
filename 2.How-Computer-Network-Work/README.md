@@ -111,3 +111,9 @@ Network communication will occur in either full or half duplex mode
 
 - Half Duplex: Can send and receive data, but not at the same time
 - Full Duplex: Can send and receive data simultaneously
+
+## Network Transmission Types
+
+- Unicast (One to One)
+- Multicast (One to Many)
+- Broadcast (One to All)
