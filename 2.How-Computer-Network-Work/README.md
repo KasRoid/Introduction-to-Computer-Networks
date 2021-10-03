@@ -84,3 +84,21 @@ An IP Address is a logical address used in order to uniquely identify a device o
     - Example: 192.168.0.1
   - IP version 6 (IPv6)
     - Example: 2001:DB8:85A3:0:0:8A2E:370:7334
+
+## Comparing IP and MAC Addresses
+
+IP Addresses
+
+- Network (OSI Layer 3) Addresses
+- Logical Addresses
+- Assigned in Operating System
+- Allows network-to-network communication via routers
+- WAN communication
+
+MAC Addresses
+
+- Data Link (OSI Layer 2) Addresses
+- Physical Addresses
+- Physical burned on NIC (Network Inteface Card)
+- Allows internetwork communication via hubs, switches, and routers
+- LAN communication
