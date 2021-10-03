@@ -20,3 +20,25 @@ Computer networks depend on many different types of protocols in order to work p
   - Web communication: HTTP
   - E-mail: POP3, SMTP, IMAP
   - File Transfers: FTP
+
+---
+
+## The OSI Model
+
+The Open Systems Interconnection(OSI) Reference Model
+
+- A conceptual framework showing us how data moves throughout a network.
+- Give us a guide to understand how networks operate.
+- It is not implemented in the real world, TCP/IP is.
+
+## OSI Model Stack
+
+The OSI Model breaks down the complex task of computer-to-computer network communications into 7 layers.
+
+**Upper Layers(Host Layers)**
+Handled by the host computer and performs application-specific functions, such as data formatting, encryption, and connection management.
+
+**Lower Layers(Media Layers)**
+Provide network-specific functions, such as routing, addressing, and flow control.
+
+![Image of OSI Model](/2.How-Computer-Network-Work/OSI-Model.png)
