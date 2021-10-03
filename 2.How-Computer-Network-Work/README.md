@@ -71,3 +71,16 @@ Physical address of the network adapter card
   - Last three bytes (24 bits) are usually assigned sequentially
     - Unique Numbers
 - 2^24 = 16.7 Million Unique Addresses
+
+## IP Addresses
+
+An IP Address is a logical address used in order to uniquely identify a device on an IP network.
+
+- It's a Network Layer address, associated with routing.
+  - OSI Layer 3: Network Layer
+  - TCP/IP Layer 2: internet Layer
+- There are two vversions
+  - IP version 4 (IPv4)
+    - Example: 192.168.0.1
+  - IP version 6 (IPv6)
+    - Example: 2001:DB8:85A3:0:0:8A2E:370:7334
