@@ -102,3 +102,12 @@ MAC Addresses
 - Physical burned on NIC (Network Inteface Card)
 - Allows internetwork communication via hubs, switches, and routers
 - LAN communication
+
+---
+
+## Half vs. Full Duplex Communication
+
+Network communication will occur in either full or half duplex mode
+
+- Half Duplex: Can send and receive data, but not at the same time
+- Full Duplex: Can send and receive data simultaneously
