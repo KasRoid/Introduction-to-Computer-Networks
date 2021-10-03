@@ -41,4 +41,17 @@ Handled by the host computer and performs application-specific functions, such a
 **Lower Layers(Media Layers)**
 Provide network-specific functions, such as routing, addressing, and flow control.
 
-![Image of OSI Model](/2.How-Computer-Network-Work/OSI-Model.png)
+![Image of OSI Model](OSI-Model.png)
+
+## The TCP/IP Model
+
+- The TCP/IP uite is the most common used protocol suite in which the Internet was built.
+- It is essentially the protocol suite in which the Internet was built.
+- It is the standard for computer networking.
+- It is based ona 4-layer model that is similar to the OSI model.
+
+![Image of TCP/IP Model](TCPIP-Model.png)
+
+## TCP/IP vs. OSI Models
+
+![Image of TCP/IP Model](TCPIP-vs-OSI.png)
