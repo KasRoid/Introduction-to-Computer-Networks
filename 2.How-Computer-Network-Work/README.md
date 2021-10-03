@@ -117,3 +117,17 @@ Network communication will occur in either full or half duplex mode
 - Unicast (One to One)
 - Multicast (One to Many)
 - Broadcast (One to All)
+
+---
+
+## Introduction to Ethernet
+
+- The most popular networking technology in the world!
+- Refers to a family of standards that define the physical and logical aspects of the world's most popular type of LAN
+- The standard communications protocol for building a local area network (LAN).
+
+**Physical**
+Cabling, Connectors, Equipment, etc.
+
+**Logical**
+Network Access Method, i.e., Carrier Sense Multiple Access (CSMA)
