@@ -55,3 +55,19 @@ Provide network-specific functions, such as routing, addressing, and flow contro
 ## TCP/IP vs. OSI Models
 
 ![Image of TCP/IP Model](TCPIP-vs-OSI.png)
+
+---
+
+## MAC Addresses
+
+**Media Access Control(MAC)**
+Physical address of the network adapter card
+
+- OSI Layer 2 (Data Link) Layer Address
+- TCP/IP Layer 1 (Network Interface) Layer Address
+- Six bytes (48 bits), Usually Represented Hexadecimal
+  - First three bytes (24bits) are assigned by the IEEE to the manufacturer
+    - Organizationally Unique Identifier(OUI) assigned by IEEE(ex: Dell or HP)
+  - Last three bytes (24 bits) are usually assigned sequentially
+    - Unique Numbers
+- 2^24 = 16.7 Million Unique Addresses
