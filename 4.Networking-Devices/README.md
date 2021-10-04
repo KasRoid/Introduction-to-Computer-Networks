@@ -94,7 +94,7 @@ DHCP Servers
 - Makes administering a network much easier
 - An alternative is static IP addressing
 
-Voice over IP(VolP) Endpoints
+Voice over IP(VoIP) Endpoints
 
 - Most phone systems run over IP networks via dedicated protocols, such as the Session Initiation Protocol(SIP), both in home and office environments.
-- VolP endpoints devices are hardware devices(phones) or software, such as Cisco Jabber that allow you to make phone calls.
+- VoIP endpoints devices are hardware devices(phones) or software, such as Cisco Jabber that allow you to make phone calls.
