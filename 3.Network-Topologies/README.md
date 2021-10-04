@@ -39,3 +39,23 @@ Four Specific Topologies
   - Two Types
     - Partail Mesh
     - Full Mesh
+
+## Wireless Network Topologies
+
+Wireless networks utilize radio frequencies(RF) to communicate.
+
+Three Specific Topologies
+
+- Ad hoc
+  - Peer-to-Peer(P2P) wireless network where no wireless access point(WAP) infrastructure exits.
+  - The devices communicate directly with one another.
+  - Personal area networks(PANs) are a common example of Ad hoc wireless networks.
+- Infrastructure
+  - Wireless network that uses wireless access point(WAP) as it's central connecting device.
+  - Infrastructure wireless networks(WLANs) a commonly used in homes and small offices.
+- Mesh
+  - Just like a wired mesh design, wireless mesh networks utilizes several wireless access points(nodes) to create a robust wireless network that is
+    - Scalable
+    - Self-Healing
+    - Reliable(redundancy)
+  - Common in larger homes and businesses
