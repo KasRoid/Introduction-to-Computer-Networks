@@ -66,3 +66,34 @@
 - Port: 445, Transport Layer Protocol: TCP
 - Networkk and file sharing protocol commonly used in Microsoft environments
 - Allows systems to share their files and printers with other systems
+
+---
+
+## Applicatio Layer Remote Communication Protocols
+
+- Telnet
+- Secure Shell (SSH)
+- Remote Desktop Protocol (RDP)
+
+### Telnet
+
+- Port: 23, Transport Layer Protocol: TCP
+- Legacy protocol used to "insecurely" connect to a remote host
+  - Data is transferred in clear text, so it's considered insecure.
+  - Largely replaced by SSH
+- Today it's primarily used to access managed network devices, such as routers via a serial connection.
+
+### Secure Sheell (SSH)
+
+- Port: 22, Transport Layer Protocol: TCP
+- A cryptographic protocol that's used to securely connect to a remote host
+  - Utilizes a terminal console.
+  - Typically Unix and Linux Machines, but also available on Windows and Mac OS
+- Encrypts data with Public Key Infrasturcture (PKI), making it secure.
+  - Considered secure replacement for Telnet
+
+### Remote Desktop Protocol (RDP)
+
+- Port: 3389, Transport Layer Protocol: TCP
+- A Microsoft protocol that allows users to remotely connect to, view, and control a remote computer from a Windows desktop.
+- Built into the Microsoft operating system.
