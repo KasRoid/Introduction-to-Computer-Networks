@@ -83,7 +83,7 @@
   - Largely replaced by SSH
 - Today it's primarily used to access managed network devices, such as routers via a serial connection.
 
-### Secure Sheell (SSH)
+### Secure Shell (SSH)
 
 - Port: 22, Transport Layer Protocol: TCP
 - A cryptographic protocol that's used to securely connect to a remote host
@@ -162,3 +162,25 @@
 - Allows users to access email on servers and either read the email on the server or download the email to the client machine.
 - Popular when a user accesses email from multiple different devices.
 - Web-based email clients, such as Gamil, use IMAP
+
+---
+
+## Applicatio Layer Web Browser Protocols
+
+- Hypertext Transfer Protocol(HTTP)
+- HTTP Secure(HTTPS)
+
+### Hypertext Transfer Protocol(HTTP)
+
+- Port: 80, Transport Layer Protocol: TCP
+- Protocol that provides browsing services for the World Wide Web(WWW)
+  - Retrieves the content of a web page from a web server
+  - Requests are made in hypertext markup language(HTML) and returned to your browser in that format
+- Data is sent in plain text
+
+### HTTP Secure(HTTPS)
+
+- Port: 443, Transport Layer Protocol: TCP
+- HTTP over Secure Socket Layer (SSL) or Transport Layer Security (TLS)
+- A secure version of HTTP that utilizes SSL/TLS to encrypts HTTP content
+- Utilizes Public Key Infrastructure(PKI)
