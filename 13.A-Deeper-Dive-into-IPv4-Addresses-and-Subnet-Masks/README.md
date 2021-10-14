@@ -37,6 +37,34 @@
 - A shortcut way of telling us what the Subnet Mask is
   - /8 = 11111111.00000000.00000000.00000000
   - /8 = 255.0.0.0
-- 192.168.1.0/24 = 255.255.255.0
-- 10.1.0.0/16 = 255.255.0.0
-- 196.10.10.0/25 = 255.255.255.128
+- 192.168.1.0 /24 = 255.255.255.0
+- 10.1.0.0 /16 = 255.255.0.0
+- 196.10.10.0 /25 = 255.255.255.128
+
+---
+
+## Public versus Private IP Addresses
+
+- Public IP Addresses
+  - Original Design of Internet
+  - "Registered" Public IP Addresses
+  - Assigned by an ISP to a Business or Home
+  - Must be Globally Unique
+    - Web Servers
+    - DNS Servers
+    - Routers
+  - By the early 1990s, the World was running out of public IP Addresses
+  - Private IP Addresses & Network Address Translation (NAT) were Born!
+- Private IP Addresses
+  - "Unregistered": Free for use by anybody!
+  - Designed for use within private Internet Networks
+  - Cannot be used or routed on a public network
+  - Utilizes NAT to "Speak" to public networks, i.e., the Internet!
+
+### Private IP Address Ranges
+
+| Class |       IP Address Range        | Network ID(s) (CIDR Notation)                               |          Number of Addresses           |
+| :---: | :---------------------------: | :---------------------------------------------------------- | :------------------------------------: |
+|   A   |   10.0.0.0 - 10.255.255.255   | 10.0.0.0 /8, 1 Private Class A Network                      | 16,777,216 IP Addresses per Network ID |
+|   B   |  172.16.0.0 - 172.31.255.255  | 172.16.0.0 - 172.31.0.0 /16, 1 Private Class B Networks     |   65,634 IP Addresses per Network ID   |
+|   C   | 192.168.0.0 - 192.168.255.255 | 192.168.0.0 - 192.168.255.0 /24, 1 Private Class C Networks |    254 IP Addresses per Network ID     |
