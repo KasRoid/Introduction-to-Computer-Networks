@@ -68,3 +68,19 @@
 |   A   |   10.0.0.0 - 10.255.255.255   | 10.0.0.0 /8, 1 Private Class A Network                      | 16,777,216 IP Addresses per Network ID |
 |   B   |  172.16.0.0 - 172.31.255.255  | 172.16.0.0 - 172.31.0.0 /16, 1 Private Class B Networks     |   65,634 IP Addresses per Network ID   |
 |   C   | 192.168.0.0 - 192.168.255.255 | 192.168.0.0 - 192.168.255.0 /24, 1 Private Class C Networks |    254 IP Addresses per Network ID     |
+
+![Public-vs-Private-IP-Address Image](Public-vs-Private-IP-Address.png)
+
+---
+
+## The Loopback IP Address
+
+- 127.0.0.0 to 127.255.255.255 is reserved for loopback, i.e., a host's own address, also known as the localhost address.
+  - 127.0.0.1 is typically configured as the default loopback address on operating systems.
+- Used for diagnostics purposes to check that TCP/IP is correctly installed on a host's operating system.
+  - When a process creates a packet destined to the loopback address, the operating system loops it back to itself without it ever interfacing with the NIC.
+  - Data sent on the loopback is forwarded by the operating system to a virtual network interface within the operating systems.
+- If you can successfully ping 127.0.0.1 or any IP within the loopback range, then TCP/IP on your computer is properly working.
+  - Ping 127.0.0.1
+  - Ping localhost
+  - Ping loopback
