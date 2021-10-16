@@ -57,3 +57,29 @@ There are two addresses per network (or subnet) that we cannot use to assign to 
 
 - Network Address: This is the address used to uniquely identify the network(or subnet).
 - Broadcast Address: Address reserved for broadcast communication on the network.
+
+---
+
+## Subnetting a Class C Network #1
+
+- Details & Requirements
+  - Network Address: 192.168.1.0
+  - Default Subnet Mask: 255.255.255.0
+  - Requires 2 Subnets
+- How many host bit do we need to borrow?
+  - 1 host bit, 2^1 = 2 Subnets
+- How many addresses hosts per subnet?
+  - 7 host bits left, 2^7 = 128 Addresses / Subnet
+  - 2^7 - 2 = 126 Addresses / Subnet
+- What are the valid subnets?
+  - 192.168.1.0 and 192.168.1.128
+- New Subnet Mask?
+  - 11111111.11111111.11111111.10000000
+  - 255.255.255.128 or /25
+
+| Subnet            | #1            | #2            |
+| ----------------- | ------------- | ------------- |
+| Network Address   | 192.168.1.0   | 192.168.1.128 |
+| First Host IP     | 192.168.1.1   | 192.168.1.129 |
+| Last Host IP      | 192.168.1.126 | 192.168.1.254 |
+| Broadcast Address | 192.168.1.127 | 192.168.1.255 |
