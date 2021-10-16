@@ -79,7 +79,7 @@
   - 127.0.0.1 is typically configured as the default loopback address on operating systems.
 - Used for diagnostics purposes to check that TCP/IP is correctly installed on a host's operating system.
   - When a process creates a packet destined to the loopback address, the operating system loops it back to itself without it ever interfacing with the NIC.
-  - Data sent on the loopback is forwarded by the operating system to a virtual network interface within the operating systems.
+  - Data sent on the loopback is forwarded by the operating system to a virtual network interface wx ithin the operating systems.
 - If you can successfully ping 127.0.0.1 or any IP within the loopback range, then TCP/IP on your computer is properly working.
   - Ping 127.0.0.1
   - Ping localhost
