@@ -83,3 +83,27 @@ There are two addresses per network (or subnet) that we cannot use to assign to 
 | First Host IP     | 192.168.1.1   | 192.168.1.129 |
 | Last Host IP      | 192.168.1.126 | 192.168.1.254 |
 | Broadcast Address | 192.168.1.127 | 192.168.1.255 |
+
+## Subnetting a Class C Network #2
+
+- Details & Requirements
+  - Network Address: 192.168.1.0
+  - Default Subnet Mask: 255.255.255.0
+  - Requires 4 Subnets
+- How many host bit do we need to borrow?
+  - 2 host bit, 2^2 = 4 Subnets
+- How many addresses hosts per subnet?
+  - 6 host bits left, 2^6 = 64 Addresses / Subnet
+  - 2^6 - 2 = 62 Addresses / Subnet
+- What are the valid subnets?
+  - 192.168.1.0, 192.168.1.64, 192.168.1.128 and 192.168.1.192
+- New Subnet Mask?
+  - 11111111.11111111.11111111.11000000
+  - 255.255.255.192 or /26
+
+| Subnet | Network/Subnet Address | Host IP Addresses | Broadcast Address |
+| ------ | ---------------------- | ----------------- | ----------------- |
+| 1      | 192.168.1.0            | 1 thru 62         | 192.168.1.63      |
+| 2      | 192.168.1.64           | 65 thru 126       | 192.168.1.127     |
+| 3      | 192.168.1.128          | 129 thru 190      | 192.168.1.191     |
+| 4      | 192.168.1.192          | 193 thru 254      | 192.168.1.255     |
