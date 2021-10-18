@@ -44,4 +44,42 @@
 
 ---
 
-##
+## IPv6 Addressing
+
+- 128-bit address composed of eight 16-bit hexadecimal blocks, separated by colons
+- Each number of letter is 4 binary bits.
+- They are shown in hexadecimal to simply the address
+  - 128 digits in binary format
+  - Up to 64 digits in decimal format.
+- Example
+  - Hexadecimal: 85A3
+  - Binary: 1000 0101 1010 0011
+  - Decimal 8 5 10 3
+
+## The Network and Interface IDs
+
+![IPv6 Image](IPv6.png)
+
+- 128-bit address composed of eight 160bit Hexadecimal blocks, separated by colons.
+- Network ID
+  - Site Prefix: Used for routing over the Internet
+  - Subnet ID: Used for subnets on internal networks.
+- Interface ID
+  - The host portion of the adress, that's automatically configured from the MAC address or manually configured in EUI-64 format.
+
+## IPv6 Address Simplification
+
+- We can simplify by omitting leading 0's
+  - 0DB8 -> DB8
+  - 0000 -> 0
+- Can also compress contiguous blocks of 0's into double colon "::" once per address.
+  - :0000:0000: -> ::
+
+## IPv6 CIDR
+
+- We can use CIDR notation with IPv6 addresses, similar to IPv4
+  - FE80::8A:0:8398:85A3/64
+- This telss us
+  - Network ID(64-bits): FE80:0000:0000:0000
+  - Interface ID(64-biys): 008A:0000:8398:85A3
+- A standard IPv6 subnet can have 2^64 IPv6 addresses
