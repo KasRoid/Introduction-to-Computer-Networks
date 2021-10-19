@@ -83,3 +83,16 @@
   - Network ID(64-bits): FE80:0000:0000:0000
   - Interface ID(64-biys): 008A:0000:8398:85A3
 - A standard IPv6 subnet can have 2^64 IPv6 addresses
+
+---
+
+## IPv6 Transmission Types
+
+- Unicast (One-to-One) Communication
+  - One-to-One communication, just like with IPv4
+- Multicast (One-to-Many) Communication
+  - IPv6 doesn't use broadcast transmissions (one-to-all).
+  - IPv6 multicast replaced broadcast communications.
+  - Sends to multi-cast group members.
+- Anycast (One-to-One-of-Many) Communication
+  - Identifies multiple interfaces, but a packet of data is delivered to the nearest network interfaces (used in routing)
