@@ -96,3 +96,23 @@
   - Sends to multi-cast group members.
 - Anycast (One-to-One-of-Many) Communication
   - Identifies multiple interfaces, but a packet of data is delivered to the nearest network interfaces (used in routing)
+
+---
+
+## Types of IPv6 Addresses
+
+### IPv6 Unicast (One-to-One) Addresses
+
+- Global Addresses
+  - Similar to Public IPv4 Addresses
+  - Globally Routable over the Internet
+  - 2000 Prefix
+- Unique Local Addresses
+  - Similar to Private IPv4 Addresses
+  - Internally routable, but not routable over the Internet
+  - FC00 or FD00 Prefix
+- Link-Local Addresses
+  - IPv6 Equivalent to IPv4 APIPA Addresses
+  - Can be assigned automatically or statically.
+  - Not routable internally or over the Internet
+  - FE80 Prefix
