@@ -116,3 +116,41 @@
   - Can be assigned automatically or statically.
   - Not routable internally or over the Internet
   - FE80 Prefix
+
+### IPv6 loopback Addresses
+
+- ::1
+
+---
+
+## IPv4 to IPv6 Translation & Compatibility
+
+### IPv4 to IPv6 Transition
+
+- IPv6 is not natively backward compatible with IPv4
+- To aid in the transition, as well as to allow IPv4 and IPv6 to co-exist, there are two transition technologies you need to know
+  - Dual IP Stack
+  - Tunneling
+
+### IPv4 to IPv6 Compatibility
+
+- Dual IP Stack
+  - When both IPv4 and IPv6 protocols co-exist within an operating system.
+  - Can be used independently or together.
+- Tunneling
+  - Tunneling is when we encapsulate IPv4 into IPv6 data and vice versa
+    - 4to6
+    - 6in4
+    - Teredo
+    - Miredo
+
+### Tunneling Protocols
+
+- 4to6
+  - Encapsulates IPv4 data into an IPv6 Tunnel
+- 6in4
+  - Encapsulates IPv6 data into an IPv4 Tunnel and can traverse IPv4 NAT.
+- Teredo
+  - Microsoft Windows IPv6 tunneling protocol similar to 6in4 that supports NAT.
+- Miredo
+  - A Linux and Unix-based open-source version of Teredo.
