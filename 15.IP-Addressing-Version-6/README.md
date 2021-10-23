@@ -154,3 +154,11 @@
   - Microsoft Windows IPv6 tunneling protocol similar to 6in4 that supports NAT.
 - Miredo
   - A Linux and Unix-based open-source version of Teredo.
+
+---
+
+## IPv6 Neighbor Discovery Protocol (NDP)
+
+- Neighbor Solicitation and Advertisement
+  - When an IPv6-enabled system joins a network, it sends out a multicast "neighbor solicitation" to all other IPv6 Systems.
+  - All other IPv6 systems on the network will respond with a "neighbor advertisement."
