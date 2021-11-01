@@ -39,3 +39,18 @@ Break collision domains up into smaller ones.
   - There's dedicated channel for concurrent sending and receiving data.
 
 ![Full Duplex Swithces](Full-Duplex-Swithces.png)
+
+---
+
+Understanding Broadcast Domains
+
+A broadcast domain is a network segment in which all devices on that network receive ethernet broad casts messages(one-to-all) from each other.
+
+- Example Broadcast Protocols: ARP, DHCP
+
+Hubs and switches forward broadcast messages; routers do not.
+
+- Broadcast messages are very inefficient and resource-intensive.
+- If routers allowed broadcasts, WAN and Internet performance would drastically decline due to boradcast storms.
+
+![Broadcast Domains](Broadcast-Domains.png)
