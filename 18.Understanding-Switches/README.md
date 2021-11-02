@@ -42,7 +42,7 @@ Break collision domains up into smaller ones.
 
 ---
 
-Understanding Broadcast Domains
+## Understanding Broadcast Domains
 
 A broadcast domain is a network segment in which all devices on that network receive ethernet broad casts messages(one-to-all) from each other.
 
@@ -54,3 +54,16 @@ Hubs and switches forward broadcast messages; routers do not.
 - If routers allowed broadcasts, WAN and Internet performance would drastically decline due to boradcast storms.
 
 ![Broadcast Domains](Broadcast-Domains.png)
+
+---
+
+## CSMA/CD
+
+- Carrier Sense Multiple Access with Collsion Detection
+- Used ona shared network meduim to help reduce data collisions.
+- Helps hosts decide when to send data and also detect collisions
+- Used with hubs(multi-port repeaters)
+- Used with switches ONLY in half-duplex mode.
+
+**CSMA/CD Process**
+![CSMA/CD Process Image](CSMA-CD-Process.png)
