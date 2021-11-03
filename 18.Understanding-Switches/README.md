@@ -67,3 +67,22 @@ Hubs and switches forward broadcast messages; routers do not.
 
 **CSMA/CD Process**
 ![CSMA/CD Process Image](CSMA-CD-Process.png)
+
+---
+
+## Unmanaged vs. Managed switches
+
+### Unmanaged
+
+- Completely unmanaged.
+- Unbox it, plug it in, and it works without any administration.
+
+### Managed
+
+- Can be configured and managed by network administrators, typically via Telnet or SSH.
+  - Configure static entries in the MAC table.
+  - Configure half or full-duplex on specific ports.
+  - Monitor switch performance with SNMP.
+  - Create virtual LANs(VLANs)
+  - Configure Port Mirroring
+- Much more expensive than unmanaged switches.
