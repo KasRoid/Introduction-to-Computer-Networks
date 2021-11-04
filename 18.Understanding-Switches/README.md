@@ -86,3 +86,27 @@ Hubs and switches forward broadcast messages; routers do not.
   - Create virtual LANs(VLANs)
   - Configure Port Mirroring
 - Much more expensive than unmanaged switches.
+
+---
+
+## How a Switch Learns MAC Addresses
+
+The Switch Learning Process
+
+1. Host A sends Ethernet frame to Host B
+   - Source: AAA, Destination: BBB
+2. Switch records that Host A's MAC address is on Port 1 in its MAC Address Table.
+3. Switch doesn't know what port Host B is using, so it will flood ports 2 and 3(broadcast).
+4. Hosts B & C will examine the Ethernet frame. Host C will discard it and Host B will respond to Host A.
+   - Source: BBB, Destination: AAA.
+5. When Host B responds, the switch will record Host B's MAC address on Port 2.
+6. The switch already knows that Host A is on Port 1, so it will forward the Ethernet frame to Port 1.
+
+![How a Switch Learns MAC Addresses](How-a-Switch-Learns-MAC-Addresses.png)
+
+Switch MAC Address Table
+
+| Port Number | MAC Address |
+| ----------- | ----------- |
+| 1           | AAA         |
+| 2           | BBB         |
