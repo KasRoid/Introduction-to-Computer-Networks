@@ -110,3 +110,36 @@ Switch MAC Address Table
 | ----------- | ----------- |
 | 1           | AAA         |
 | 2           | BBB         |
+
+---
+
+## Virtual LANs(VLANs)
+
+- Essentially LANs within a LAN
+  - Physical Switch -> Multiple Virtual Switches
+- Break up a large "physical LAN into several smaller "logical" LANs.
+- Accomplished with managed switches.
+- Assign specific switch interfaces(ports) to specific virtual LANs.
+  - Human Resource VLAN (Interface 1,2,3)
+  - Accounting VLAN (Interface 4,5,6)
+- Benefits of VLANs
+  - Reduces Broadcast Domains
+  - Segments Network by Role
+  - Increases Security
+  - Devices cannot communicate with other VLANs.
+  - Group devices by need, not physical location
+
+![Virtual LANs Image](Virtual-LANs.png)
+
+### VLANs with Multiple Switches
+
+![VLANs with Multiple Switches Image](VLANs-with-Multiple-Switches.png)
+
+- Truck Ports
+  - Creates a connection between two switches(trunk link) for VLAN traffic to traverse for multiple VLANs.
+- Access Ports
+  - Ports configured for use for a single VLAN.
+- Tagging (802.1Q)
+  - Ethernet frames are tagged with their respective VLAN ID when traversing trunk ports to ensure proper delivery.
+- Untagged Frames
+  - If a frame isn't tagged with a VLAN ID, siwtch trunk ports can be configured with a native VLAN, to which the untagged frame will be sent.
