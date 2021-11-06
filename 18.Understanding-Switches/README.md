@@ -143,3 +143,32 @@ Switch MAC Address Table
   - Ethernet frames are tagged with their respective VLAN ID when traversing trunk ports to ensure proper delivery.
 - Untagged Frames
   - If a frame isn't tagged with a VLAN ID, siwtch trunk ports can be configured with a native VLAN, to which the untagged frame will be sent.
+
+---
+
+## Layer 3 Switches
+
+- Provide Layer 2 Switching & Layer 3 Routing.
+  - OSI Layer 2 (Data Link): Switching
+    - MAC Addresses
+  - OOSI Layer 3 (Network): Routing
+    - IP Addresses
+- Managed Switch Capability
+- Used in Conjunction with VLANs
+- Provdies:
+  - VLAN Switching
+  - IP Routing between VLANs
+- One Device Instaed of Router & Switch
+
+![Layer 3 Switches Image](Layer3-Switches.png)
+
+---
+
+## Port Mirroring
+
+When a switch is configured to have a dedicated port receive all traffic on that network for:
+
+- Monitoring
+- Diagnostics
+- Troubleshooting
+- Also called a Switch Port Analyzer (SPAN)
