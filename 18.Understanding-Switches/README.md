@@ -172,3 +172,20 @@ When a switch is configured to have a dedicated port receive all traffic on that
 - Diagnostics
 - Troubleshooting
 - Also called a Switch Port Analyzer (SPAN)
+
+---
+
+## Power over Ethernet (PoE)
+
+- Gives us the ability to power network-connected devices with Ethernet cales:
+  - VoIP Phones
+  - WIreless Access Points
+  - IP Security Cameras
+- Provides electricity and network data in the same cable
+- Two Methods:
+  - PoE Switch
+  - Non-PoE Siwtch + PoE Injector
+
+![PoE Switch Image](PoE-Switch.png)
+
+![Non PoE Switch Image](Non-PoE-Switch.png)
