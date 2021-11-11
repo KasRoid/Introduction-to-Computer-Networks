@@ -32,3 +32,38 @@
 
 - Once Router 2 receives the packet, it'll inspect its destination IP address and then make a routing decision based on its routing table to identify which route to send it to.
 - In this case, it's its directly connected Ethernet interface with an IP address of 192.168.0.1./24.
+
+---
+
+## Static vs. Dynamic Routing
+
+### Static Routing
+
+- The simplest form of routing
+- Static routes that are manually entered by a network administrator
+- Ideal for small networks with very few routes that rarely change
+  - There's no overhead like there is with dynamic routing.
+- Can be problematic for larger networks or if the network regularly changes
+  - All changes must be made manually, which is time-consuming and can be error-prone
+
+![Static Routing Image](Static-Routing.png)
+
+### Dynamic Routing
+
+- An automated form of routing that uses routing protocols to:
+  - Populate router's routing table
+  - Make the most efficient routing decision
+  - Updating the routing table whenever the network changes
+- Automatic & Hands-Off
+  - All routing decisions are handled by the protocol
+- Ideal for larger, and more complex networks
+
+![Dynamic Routing Image](Dynamic-Routing.png)
+
+### Types of Dynamic Routing Protocols
+
+- Thre are three different types of dynamic routing protocols, which we'll discuss in detail later in this section
+- Dynamic
+  - Distance-Vector
+  - Link-State
+  - Hybrid
