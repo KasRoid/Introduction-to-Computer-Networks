@@ -67,3 +67,34 @@
   - Distance-Vector
   - Link-State
   - Hybrid
+
+---
+
+## AS (Autonomous System)
+
+- Autonomous = Independent Entity (Organization)
+  - University, Corporation, Governmental Agency
+- Routers are usually part of an Autonomous System (AS)
+  - IP routes under common control
+- An AS is a connected group of one or more IP prefixes run by one or more network operators with a signle and clearly defined routing policy (Single Organization)
+- Important point of reference for discussing Interior Gateway Protocols (IGP) and Exterior Gateway Protocols (EGP)
+
+### IGP (Interior Gateway Protocol)
+
+- Used within a single AS (Your Organization)
+  - Not intended to route between Autonomous Systems
+    - That's why there's Exterior Gateway Protocols(EGPs)
+- IGP Protocols
+  - RIP (Routing Information Protocol)
+  - OSPF (Open Shortest Path First)
+  - EIGRP (Enhanced Interior Gateway Routing Protocol)
+
+### EGP (Exterior Gateway Protocol)
+
+- Used to route between Autonomous Systems
+  - Internet Service Providers(ISPs)
+- BGP (Border Gateway Protocol)
+  - Almost all ISPs uses BGP as their EGP
+
+**EGP & IGPs Working Together**
+![EGP & IGPs Working Together Image](EGP-IGPs-Working-Together.png)
