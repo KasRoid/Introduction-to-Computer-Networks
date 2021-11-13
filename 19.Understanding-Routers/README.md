@@ -98,3 +98,68 @@
 
 **EGP & IGPs Working Together**
 ![EGP & IGPs Working Together Image](EGP-IGPs-Working-Together.png)
+
+---
+
+## Interior Gateway Protocols
+
+- There are three different types of IGPs:
+  - Distance-Vector
+    - RIP
+    - EIGRP
+  - Link State
+    - OSPF
+
+### Distance-Vector
+
+- Like its name implies, Distance-Vector routing protocols use distance as their metric for making routing decisions.
+  - Distance = Hop Count
+  - Hops are the number of routers that a packet passes through from its source to its destination.
+    ![Distance Vector Image](Distance-Vector.png)
+- Distance-Vector Routing Protocols:
+  - Router Information Protocol (RIP)
+  - Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+### Router-Information Protocol (RIP)
+
+- A long-established distance-vector protocol with three versions.
+- Supports a maximum of 15 hops to prevent routing loops
+  - Doesn't scale well due to 15 hop limitation.
+- Sends a full copy of its routing table to directly connected routers every 30 seconds
+  - Slow network onvergence times, which can lead to potential routing loop issues
+  - For example: router 3 may need to wait up to 90 seconds to get router 0's full routing table
+  - Lead to unnecessary network traffic and high router CPU utilization.
+    ![Router Information Protocol Image](Router-Information-Protocol.png)
+
+### Enhanced Interior Gateway Routing Protocol (EIGRP)
+
+- A Cisco propretary routing protocol that only works on Cisco routers.
+- Not a true distance-vector routing protocol
+  - Utilizes hop count metrics, but also reliability, bandwidth, load, and delay metrics.
+  - Can be considered an advanced distance-vector or hybrid routing protocol
+- Has a default hop count of 100 and maximum of 255
+- Supports classless routing and VLSM
+- Very fast converging and very scalable for larger networks
+
+### Link-State
+
+- Link-state routing protocols build a map of the entire network.
+- Utilize link-state advertisements(LSAs) to acoomplish this:
+  - Routers share information with all other routers on the network via LSAs.
+  - This allows them to build a complete network map.
+- Once the network map is built, routers only update each other when there is a change to the network.
+- Otherwise, they don't communicate, except with a periodic "hello" packet, so the other routers know they are up and functioning.
+- This leads to faster network convergence times that support larger networks.
+- Link-State Routing Protocol:
+  - Open Shortest Path First (OSPF)
+
+#### Open Shortest Path First (OSPF)
+
+- Open standard link-state routing protocol
+- Well suited for large networks with multiple redundant paths.
+- It builds a toplological routing tree, call a shrtest-path tree.
+- Sub-dividees a larger network into areas where routers share information with other routers in their designated area:
+  - Minimizes routing update traffic and improves network convergence times
+- Uses "cost" metrics to determine the "best" route by including link state and speed.
+- Supports classless addressing and VLSM
+- Has an unlimited hop count
