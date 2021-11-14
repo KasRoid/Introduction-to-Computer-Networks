@@ -163,3 +163,18 @@
 - Uses "cost" metrics to determine the "best" route by including link state and speed.
 - Supports classless addressing and VLSM
 - Has an unlimited hop count
+
+---
+
+## Border Gateway Protocol (BGP)
+
+- The only EGP in widespread use today
+- Considered the Internet's core routing protocol
+  - Supports IPv4 and IPv6
+  - Highly Scalable
+- Often called a path-vector (hybrid) routing protocol
+  - Each ISP is assigned a unique Autonomous System (AS) number
+  - Uses the number of AS hops rather than individual router hops as its metric
+- Utilizes the BGP Best Path Selection algorithm to identify the bestroute
+- Routing protocol from AS to AS
+  - When you connect to the Internet, you're moving from one AS to another
