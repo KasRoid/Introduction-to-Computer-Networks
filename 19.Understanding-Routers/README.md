@@ -178,3 +178,45 @@
 - Utilizes the BGP Best Path Selection algorithm to identify the bestroute
 - Routing protocol from AS to AS
   - When you connect to the Internet, you're moving from one AS to another
+
+---
+
+## Routing Table Entries
+
+- Routing table categories:
+  - Directly Connected Routes
+    - Networks that are directly connected to the router.
+  - Remote Network Routes
+    - Networks that aren't directly connected to the router.
+  - Default Routes
+    - Routes when no match is found in the routing table.
+
+### Routing Table Compenents
+
+- Routing tables, at a minimum, will include the following information:
+  - Type
+  - Destination Network ID & Subnet Mask
+  - Router Interface
+  - Metric
+
+| Type      | Network          | Interface       | Metric |
+| --------- | ---------------- | --------------- | ------ |
+| Connected | 192.168.1.0/24   | FastEthernet0/0 | 0      |
+| Connected | 200.100.100.0/24 | Serial0/0       | 0      |
+| Static    | 192.168.0.0/24   | Serial0/0       | 1      |
+| Static    | 0.0.0.0/0        | Serial0/0       | 1      |
+
+### Administrative Distance (AD)
+
+- Routers use Administrative distance (AD) to rate the overall trustworthiness of a route.
+- AD's can have a value ranging from 0 to 255, where lower is better, based on the type of route.
+- If a router receives routing table updates from two different sources, it'll utilize the one with the lower AD.
+
+| Type                | Default AD |
+| ------------------- | ---------- |
+| Connected Interface | 0          |
+| Static Route        | 1          |
+| EIGRP               | 90         |
+| OSPF                | 110        |
+| RIP                 | 170        |
+| Unknown             | 255        |
