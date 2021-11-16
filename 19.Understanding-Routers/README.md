@@ -220,3 +220,14 @@
 | OSPF                | 110        |
 | RIP                 | 170        |
 | Unknown             | 255        |
+
+---
+
+### The Default Route
+
+- A static route that's utilized when a packet's destination IP address has no known match in a router's routing table.
+- If there's no match -> forward the packet on via the default route.
+- Commonly called the gateway of last resort.
+- The following addresses are used to represent the default route in a routing table:
+  - IPv4: 0.0.0.0/0
+  - IPv6: ::/0
