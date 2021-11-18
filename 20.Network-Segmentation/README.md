@@ -31,3 +31,17 @@
 - Many-to-One relatioinship, where all devices on the local private network utilize a single public IP addresses.
 - Ports are used to link each connection to a specific dynamic port number.
 - Very common in small business and home networks.
+
+---
+
+## Demilitarized Zone (DMZ)
+
+- A perimeter network designed to be securely separated from an organization's private internal network (intranet).
+- Commonly called a DMZ
+- Allows untrusted users outside an organization's LAN (intranet) to access specific services located within the DMZ.
+  - Public Web Site(s)
+  - Trivial FTP Server for File Downloads (drivers, softwre, etc.)
+  - Public Email Service (Gamil, etc.)
+- Also blocks such users from gaining access to the organization's intranet.
+
+![Demilitarized Zone Image](Demilitarized-Zone.png)
