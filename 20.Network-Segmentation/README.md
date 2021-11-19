@@ -45,3 +45,12 @@
 - Also blocks such users from gaining access to the organization's intranet.
 
 ![Demilitarized Zone Image](Demilitarized-Zone.png)
+
+## Port Forwarding
+
+![Port Forwarding Image](Port-Forwarding.png)
+
+- A technique used to allow external devices access to computer services within a private network.
+  - Example: Web server in your home network.
+- Map an external IP address port number to a specific internal IP address and port number.
+  - Example: Forward all port 80 requests to your public router IP address to your web server in your home network.
