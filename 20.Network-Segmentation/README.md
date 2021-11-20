@@ -54,3 +54,16 @@
   - Example: Web server in your home network.
 - Map an external IP address port number to a specific internal IP address and port number.
   - Example: Forward all port 80 requests to your public router IP address to your web server in your home network.
+
+---
+
+## Access Control Lists (ACLs)
+
+- Access Control Lists are a network security feature used to create allow/deny network rules to filter network traffic.
+- They can be set for both incoming and outgoing traffic ona variety of devices, such as:
+  - Routers
+  - Firewalls
+  - Proxy Servers
+  - End-Devices
+
+![ACLs Image](ACLs.png)
