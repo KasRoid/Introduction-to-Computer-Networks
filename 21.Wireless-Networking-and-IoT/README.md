@@ -48,3 +48,36 @@
   - Clear to Send (CTS)
 
 ![CSMA/CA Image](CSMA-CA.png)
+
+---
+
+## Understanding Service Set Types
+
+### Service Set Types
+
+- There are three service types:
+  - Independent Basic Service Set (IBSS)
+  - Basic Service Set (BSS)
+  - Extended Service Set (ESS)
+
+### Ad hoc Mode: Independent Basic Service Set (IBSS)
+
+- Peer-to-peer (P2P) wireless network shere no wireless access point (WAP) infrastructure exists.
+- The devices communicate directly with one another.
+- Personal area networks (PANs) are a common example of Ad hoc wireless networks.
+
+### infrastructure Mode
+
+Basic Service Set (BSS)
+
+- Single Wireless Access Point (WAP)
+- Most common configuration
+
+![Basic Service Set Image](Basic-Service-Set.png)
+
+Extended Service Set (ESS)
+
+- Multiple WAPs, utilizing the same SSID
+- Allows wireless users to seamlessly "roam" from one WAP to another.
+
+![Extended Service Set Image](Extended-Service-Set.png)
