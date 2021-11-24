@@ -81,3 +81,77 @@ Extended Service Set (ESS)
 - Allows wireless users to seamlessly "roam" from one WAP to another.
 
 ![Extended Service Set Image](Extended-Service-Set.png)
+
+---
+
+## Wireless Frequencies and Channels
+
+### Understanding Wireless Frequencies
+
+- Wireless signals occuoy a spectrum of frequencies:
+  - Signals that vibrate slowly have a low frequency.
+  - Signals that vibrate quickly have a high frequency.
+- For example:
+  - AM Radio: 10MHz
+  - FM Radio: 100MHz
+  - Microwave Oven: 2.4GHz
+  - Cordless Phone: 2.4GHz
+- 802.11 Wireless operates at either 2.4Ghz or 5GHz
+
+### Understanding Wireless Channels
+
+- 802.11 Wi-Fi communication also operates on a channel, which is a portion of the 2.4GHz or 5GHz spectrum.
+- 2.4GHz Band
+  - Compsed of 14 overlapping 20MHz channels. Due to licensing laws:
+    - Only channels 1 through 11 available in the United States.
+    - Most other countries allow channels 12 and 13.
+    - Channel 14 is only available in Japan.
+  - It's recommended to use channels 1, 6 or 11 because they do not overlap.
+    - There are just 3 non-overlapping channels.
+    - ![2.4GHz Band Image](2.4GHz-Band.png)
+- 5GHz Band
+  - 5GHz offers significantly more channels than 2.4GHz.
+  - There are roughly 40 different non-overlapping 20MHz channels.
+  - Different countries have widely different rules for which channels can be used.
+    - 24 non-overlapping channels available in North America.
+    - 802.11 features 5GHz auto-channel switching.
+
+### Understanding Channel Bandwidth
+
+- The width of a channel is a channel's Bandwidth
+- Expressed in MHz but equates to how many vits can be transmitted per second.
+- The larger the channel bandwidth, the faster the data throughput.
+- In 802.11, channel bandwidth varies from 20MHz up to 160MHz
+
+### Understanding Channel Bonding
+
+- 802.11 provides a channel bonding feature:
+  - When two adfacent channels are combined (bonded together) to increase bandwidth.
+  - When channels are bonded together, their bandwidths doubles.
+  - 20MH channels can be bonded to 40MHz, 80MHz, or 160MHz Channels
+
+![Channel Bonding Image](Channel-Bonding.png)
+
+### 2.4GHz versus 5GHz
+
+- 2.4GHz Frequency Band
+  - Longer Frequency Waves
+    - Prorogates through solid surfaces well
+    - Good solution for long-distances
+    - Slower data rates
+  - Lower data rates over longer distances
+  - Fewer Channels
+    - 3 non-overlapping channels
+  - Suffers from frequency congestion & interference
+    - Microwaves, cordless phones, and Bluetooth operate at 2.4GHz
+- 5GHz Frequency Band
+  - Shorter Frequency Waves
+    - Less effective penetrating solid surfaces
+    - Not as effective over long-distances
+    - Faster data rates
+  - Higher data rates over shorter distances
+  - More Channels
+    - 24 non-overlapping channels
+    - Channel bonding available
+  - Less congested than 2.4 GHz frequency
+    - Frequency congestion and interference isn't a big issue.
