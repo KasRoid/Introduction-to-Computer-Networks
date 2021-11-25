@@ -155,3 +155,38 @@ Extended Service Set (ESS)
     - Channel bonding available
   - Less congested than 2.4 GHz frequency
     - Frequency congestion and interference isn't a big issue.
+
+---
+
+## 802.11 Standards and MIMO
+
+### 802.11 Standards
+
+|                                   | 802.11 | 802.11a | 802.11b | 802.11g | 802.11n       | 802.11ac        | 802.11ax         |
+| --------------------------------- | ------ | ------- | ------- | ------- | ------------- | --------------- | ---------------- |
+| Date                              | 1997   | 1999    | 1999    | 2003    | 2009          | 2014            | 2019             |
+| Frequency Band                    | 2.4GHz | 5GHz    | 2.4GHz  | 2.4GHz  | 2.4GHz & 5GHz | 5GHz            | 2.4GHz & 5GHz    |
+| Channel Bandwidth                 | 20MHz  | 20MHz   | 20MHz   | 20MHz   | 20/40MHz      | 20/40/80/160MHz | 20/40/80/160MHz  |
+| Max Theoretical Rate              | 2Mbps  | 54Mbps  | 11Mbps  | 54Mbps  | 150Mbps       | 866Mbps         | 600Mbps          |
+| MIMO & Channel Bonding Throughput | N/A    | N/A     | N/A     | N/A     | 600Mbps       | 6.9Gbpbs        | 9.6Gpbs          |
+| Backwards Compatibility           | N/A    | N/A     | 802.11  | 802.11b | 802.11a/b/g   | 802.11a/n       | 802.11a/b/g/n/ac |
+
+### Understanding MIMO
+
+- MIMO (Multiple Input, Multiple Output)
+  - Wireless tochnology that uses multiple antennas to increase data transfer speeds.
+  - Requires multiple antennas on the WAP and wireless NIC.
+  - Wireless devices can make multiple simultaneous connections to a Wi-Fi router utilizing several antennas.
+- While speeds increase, only one person can transmit data at a time
+  - Commonly called Single-User MIMO (SU-MIMO)
+  - 802.11n itilizes SU-MIMO
+  - With up to four antennas, 802.11n can increase its single-channel speeds from 150Mbps to 600Mbps.
+
+### multiple User MIMO (MU-MIMO)
+
+- 802.11ac introduces the use of Multiple User MIMO (MU-MIMO)
+- MU-MIMO allows multiple users to communcate with a WAP at the same time.
+  - Huge technological advancement for wireless networking.
+- Drastically improves network speeds and greatly reduces network latency.
+  - It's as if each device has its own WAP.
+  - 802.11ac and 802.11ax support MU-MIMO connections.
