@@ -190,3 +190,65 @@ Extended Service Set (ESS)
 - Drastically improves network speeds and greatly reduces network latency.
   - It's as if each device has its own WAP.
   - 802.11ac and 802.11ax support MU-MIMO connections.
+
+---
+
+## Deploying Wireless Networks
+
+- When planning to deploy a wireless network, there are a variety of factors to consider:
+  - Site Surveys
+  - Speed and Distance Requirements
+  - Signal Degradation & Interference
+  - WAP Placement & Channel Selection
+  - Antenna Types
+  - Network Security Considerations
+
+### Site Surveys
+
+- The first thing you should do when deploying a wireless network is perform a site survey.
+- A site syrvey involves:
+  - Analyzing the physical site via building blueprints
+  - Performing a physical building walk-through inspection
+  - Using a wireless survey tool
+
+### Wireless Survey Tools
+
+- A wireless survey tool is specialized software that allows you to perform wireless network analysis and optimization.
+  - Discover existing wireless networks
+  - Temporarily set-up new WAPs
+  - Perform network heat maps to optimize:
+    - WAP Placement
+    - Channel Selection
+    - Antenna Selection
+
+![Wireless Survey Tools Image](Wireless-Survey-Tools.png)
+
+### Speed & Distance Requirements
+
+- Understand your speed and distance requirements:
+  - What speeds does your WLAN need to support?
+  - How many concurrent users?
+  - 802.11 backward compatibility requirements?
+- Signal degradation and interference factors should also be considered.
+
+|                                   | 802.11n    | 802.11ac    | 802.11ax   |
+| --------------------------------- | ---------- | ----------- | ---------- |
+| MIMO & Channel Bonding Throughput | 600Mbps    | 6.9Gbps     | 9.6Gpbs    |
+| Approximate Inddor Range          | 70 (230ft) | 35m (115ft) | 30m (98ft) |
+
+### Signal Degradation & Interference
+
+- When installing a wireless network, signal degradation and interference are two very important issues to consider.
+- Advertised distances are rarely real-world distances.
+- The weaker the signal, the less reliable the network connection will be and the lower the effective data rate.
+- Some Key Factors that affect signal strength:
+  - Distance, Walls, Trees & Other Barriers
+  - WAP Channel Interference
+  - 2.4GHz Interference Sources:
+    - Bluetooth Devices
+    - Cordless Phones
+    - Microwaves
+
+### Network Security Considerations
+
+- It's vitally important to secure your wireless network with proper authentication and encryption measures in place.
