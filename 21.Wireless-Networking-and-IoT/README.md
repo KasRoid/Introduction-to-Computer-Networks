@@ -252,3 +252,28 @@ Extended Service Set (ESS)
 ### Network Security Considerations
 
 - It's vitally important to secure your wireless network with proper authentication and encryption measures in place.
+
+---
+
+## Wireless Network Vulnerabilities & Security
+
+### Wireless Betworking Security Vulnerabilities
+
+- A significant vulnerability of wireless networks is that they broadcast network traffic over the air.
+- Since data freely emanate over the air, anyone can intercept it with a transceiver tuned to the correct frequency.
+- Since IEEE standardizes the frequencies, they're easy to learn by hackers.
+
+### Securing Wireless Network Essentials
+
+- Decrease its Signal Footprint:
+  - Lower its Signal Strength and/or Range
+- Implment a Security Protocol
+  - WPA2 or WPA3
+  - 802.1x(Centralized Authentication)
+  - DO NOT use WEP or WPA
+- Change the default administrator password
+- Implement Authentication
+- Disable SSID broadcasting
+- Change the default SSID
+- Enable MAC fultering
+- Update firmware regularly
