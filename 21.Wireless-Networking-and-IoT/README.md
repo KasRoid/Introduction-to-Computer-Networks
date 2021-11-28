@@ -277,3 +277,72 @@ Extended Service Set (ESS)
 - Change the default SSID
 - Enable MAC fultering
 - Update firmware regularly
+
+---
+
+## Internet of Things (IoT)
+
+- Internet of Things (IoT) describes embedding computing and networking capabilities into everyday object.
+- There are a variety of IoT technologies:
+  - Z-Wave
+  - ANT+
+  - Bluetooth
+  - NFC
+  - IR
+  - RFID
+  - 802.11
+
+### Z-Wave
+
+- Wireless protocol used for home automation.
+- Common Z-Wave Smart Devices:
+  - Smart Door Locks
+  - Smart Light Bulbs
+  - Smart Doorbells
+  - Smart Garage Door Openers
+  - Smart Motion Sensors
+  - Smart Thermostats
+
+### ANT+
+
+- A wireless protocol designed to monitor sensor data that operates at 2.4GHz frequency band.
+- It's maintained by the ANT+ Alliance, which is owned by Gramin, which is why a majority of ANT+ devices are focused on health and fitness.
+- Common ANT+ Devices:
+  - Heart Rate Monitor
+  - Blood Pressure Monitor
+  - Bicycle Computers
+  - Bicycle Power Meters
+  - Bicycle Tire Pressure Monitor
+
+### Bluetooth
+
+- A very popular wireless communication protocol for personal area networks (PANs).
+- Operates at the 2.4GHz frequency band.
+- Considered a market leader for short-distance wireless communications.
+- Common Bluetooth Devices:
+  - Speakers
+  - Headsets
+
+### Near Field Communication (NFC)
+
+- A wireless communication protocol hat enables two devices to transfer information over distances of 4cm (1.6 inches) or less.
+- Most commonly ussed in "tap to pay" payment systems.
+
+### Infrared (IR)
+
+- A wireless communication protocol that has been around for a very long time.
+- Uses infrared beams to send data transmissions with a limited range of generally 30 feet or less that requires a direct line of sight.
+- Common IR devices:
+  - Television Remotes
+  - Keyboards
+  - Thermometer
+
+### Radio-Frequency Identification (RFID)
+
+- Uses electromagnetic fields to automatically identify and track tags attached to objects.
+- Commonly used for supply cahin and iventory management purposes, as well as door access cards.
+- Tags contain eletronically-stored information and "proximity readers" are able to read data stored on RFID tags.
+
+### 802.11
+
+- Traditional Wi-Fi can also be used for IoT applications.
