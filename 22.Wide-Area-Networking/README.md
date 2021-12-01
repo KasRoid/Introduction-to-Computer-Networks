@@ -42,3 +42,39 @@
 - A reserved circuit that provides a fixed bandwidth point-to-point data connection, usually between two offices.
   - It's always active and provides a guaranteed bandwidth for a fixed monthly fee.
 - The leased line may be a dedicated physical line or a permanent virtual circuit.
+
+---
+
+## WAN Transmission Mediums
+
+### Copper
+
+- Copper cabling is used in a variety to WAN applications:
+  - Dial-Up
+  - DSL
+  - Broadband Cable
+- Copper has limited distances and speeds, so fiber is becoming more common.
+
+### Fiber
+
+- Fiber is a popular WAN transmission medium, as it offers extremely fast speeds over long distances.
+- Speeds greater than 10Gbps achievable with distances up to 75 miles.
+- Synchronous optical networking (SONET) is the standard for fiber WAN transmissions.
+- SONET uses the Optial Carrier (OC) standard
+
+### Wireless (Cellular)
+
+- 4G and 5G cellular technologies make wireless cellular a realistic option for WAN connectivity.
+  - Average 4G Speeds: 25 to 30 Mbps
+  - Average 5G Speeds: 40 Mbps to 1.5Gbps
+- Dedicated devices and phones can be utilized as Internet hotspots in places where other options aren't available:
+  - Ships, Places, Remote Locations
+
+### Satellite
+
+- A viable solution when wired connections aren't available.
+  - Typical speeds range from 12 to 100Mbps
+  - Can be expensive
+  - Prone to severe latency (delay) problems
+  - Sensitive to weather conditions
+- The subscriber has a satellite dish installed, which is called a very small aperture terminal (VSAT).
