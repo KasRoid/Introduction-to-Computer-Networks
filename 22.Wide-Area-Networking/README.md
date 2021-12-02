@@ -78,3 +78,16 @@
   - Prone to severe latency (delay) problems
   - Sensitive to weather conditions
 - The subscriber has a satellite dish installed, which is called a very small aperture terminal (VSAT).
+
+---
+
+## WAN Termination Concepts
+
+- Demarcation (Demac) Point
+  - The point where the ISP's network ends and the organiztaion's network begins.
+  - The dividing line between the service provider and customer's network.
+- Channel Service Unit/Data Service Unit (CSU/DSU)
+  - A WAN connectivity device that connects a WAN link to a customer's LAN, and is typically a modem.
+  - The CSU connects to the network service provider's network, while the DSU connects to the customer's data termination equipment (DTE), which is typically a router.
+- Smart Jack
+  - A smart jack is often used with a CSU/DSU, which enables the service provider to diagnosis network issues and perform loopback tests.
