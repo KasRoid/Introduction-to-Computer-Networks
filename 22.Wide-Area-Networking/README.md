@@ -97,3 +97,13 @@
 ## WAN Broadband Service
 
 Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
+
+### Dial-Up
+
+- The original Internet connection methodology.
+  - 56Kbps (kilobits per second) maximum speed.
+- Uses POTS (Plan Old Telephone Service) also referred to as a PSTN (Public Switched Telephone Network)
+- Utilizes Circuit Switching
+  - A modem initiates a call and the dedicated circuit exists only while the connection is active.
+
+![Dial Up Image](Dial-Up.png)
