@@ -107,3 +107,21 @@ Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
   - A modem initiates a call and the dedicated circuit exists only while the connection is active.
 
 ![Dial Up Image](Dial-Up.png)
+
+### T-Carrier & E-Carrier Digital Signal Lines
+
+- Commonly referred to as "dedicated" leased lines, because they are leased from the telecommunications company to provide a dedicated circuit.
+  - Circuit-Switched Technology
+- T-Carrier and E Carrier Locations:
+  - T-Carrier Lines: North America, Japan, and South Korea
+  - E-Carrier Lines: Europe
+
+#### Comparing T1, E1, T3, and E3 Speeds
+
+| Type     | Speed      | Dtails                   |
+| -------- | ---------- | ------------------------ |
+| DS0      | 64Kbps     | Single Channel           |
+| T1 (DS1) | 1.544Mbps  | 24 x DS0 64Kbps Channels |
+| E1 (DS1) | 2.048Mbps  | 30 x DS0 64Kbps Channels |
+| E3 (DS3) | 34.368Mbps | 512 x 64Kbps Channels    |
+| T3 (DS3) | 44.736Mbps | 672 x 64Kbps Channels    |
