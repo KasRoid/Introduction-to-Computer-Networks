@@ -125,3 +125,29 @@ Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
 | E1 (DS1) | 2.048Mbps  | 30 x DS0 64Kbps Channels |
 | E3 (DS3) | 34.368Mbps | 512 x 64Kbps Channels    |
 | T3 (DS3) | 44.736Mbps | 672 x 64Kbps Channels    |
+
+### Digital Subscriber Line (DSL)
+
+- High-Speed Internet technology utilizing POTS.
+  - Sends data digitally over telephone lines.
+  - Utilizes a DSL modem and splitter to accomplish this task.
+- DSL Limitation:
+  - DSL modem must be within 4,000 to 18,000 ft. of telecommunications compnay's central office (CO) based on the type of DSL.
+
+![DSL Image](DSL.png)
+
+#### Types of DSL
+
+- Asymmetric DSL (ADSL)
+  - Consumer verion of DSL that allocates more bandwidth to downstream than upstream data flow.
+  - Latest version (ADSL+) offers download speeds around 24 Mbps and upload speeds round 1 Mbps.
+- Symmetric DSL (SDSL)
+  - Provides equal bandwidth for downstream and upstream data flows.
+    - 1.544 Mbps (U.S. and Canada) - T1 Equivalent
+    - 2.048 Mbps (Europe) - E1 Equivalent
+  - Less popular in residential installations.
+- Very High Bitrate DSL (VDSL)
+  - Today's replacement for ADSL and SDSL.
+  - Latest version (VDSL2-Vplus) can provide the following speeds:
+    - Asymmetric: 300 Mbps download and 100 Mbps upload.
+    - Symmetric: 100 Mbps download and upload
