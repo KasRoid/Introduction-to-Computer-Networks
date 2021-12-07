@@ -151,3 +151,26 @@ Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
   - Latest version (VDSL2-Vplus) can provide the following speeds:
     - Asymmetric: 300 Mbps download and 100 Mbps upload.
     - Symmetric: 100 Mbps download and upload
+
+---
+
+## Cable Broadband
+
+- High-speed Internet technology utilizing your cable service.
+  - Uses Data Over Cable Service Interface Specification (DOCSIS) standard to provide Internet access via a cable modem.
+- Understanding Broadband
+  - The simultaneous transmission of multiple signals over different frequencies at the same time.
+  - This allows for different cable TV channels and your Internet data to be assigned to different frequencies, all being transmitted simultaneously.
+
+![Cable Broadband Image](Cable-Broadband.png)
+
+### DOCSIS Standards
+
+| Version | Date | Max Download Speed | Max Upload Speed |
+| ------- | ---- | ------------------ | ---------------- |
+| 1.0     | 1997 | 40 Mbps            | 10 Mbps          |
+| 1.1     | 2001 | 40 Mbps            | 10 Mbps          |
+| 2.0     | 2002 | 40 Mbps            | 30 Mbps          |
+| 3.0     | 2006 | 1 Gbps             | 200 Mbps         |
+| 3.1     | 2013 | 10 Gbps            | 1 - 2 Gbps       |
+| 4.0     | 2017 | 10 Gbps            | 6 Gbps           |
