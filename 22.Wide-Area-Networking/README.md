@@ -174,3 +174,16 @@ Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
 | 3.0     | 2006 | 1 Gbps             | 200 Mbps         |
 | 3.1     | 2013 | 10 Gbps            | 1 - 2 Gbps       |
 | 4.0     | 2017 | 10 Gbps            | 6 Gbps           |
+
+---
+
+## Metropolitan Ethernet (Metro-E)
+
+- A WAN technology based on Ethernet standards.
+- Extends Ethernet, a LAN technology onto WANs:
+  - Commonly uses fiber optics cabling to overcome twisted-pair copper cabling distance limitations.
+- From the customer's perspective, it's like being connected to an Ethernet switch.
+- Popular implementations offer 1 Gbps up to distances of 100km or 100 Gbps up to 10km.
+- Popular business solution used to connect multiple sites together.
+
+![Metropolitan Ethernet Image](Metropolitan-Ethernet.png)
