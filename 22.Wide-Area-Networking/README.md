@@ -187,3 +187,9 @@ Dial-Up, T-Carrier Signal Lines, DSL, Cable Broadband, Metropolitan Ethernet
 - Popular business solution used to connect multiple sites together.
 
 ![Metropolitan Ethernet Image](Metropolitan-Ethernet.png)
+
+---
+
+## WAN Protocols
+
+![WAN Protocols Image](WAN-Protocols.png)
