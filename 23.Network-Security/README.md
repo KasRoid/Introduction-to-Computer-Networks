@@ -26,3 +26,9 @@ A user, system, process, or application is only given the permissions necessary 
 - Personnel are often required to read and acknowledge acceptable use policies.
 - An acceptable use policy will define the purpose of IT systems, how users can access them, and the responsibilities of users when accessing the systems.
 - Defines what is acceptable and not acceptable, as well as penalties for performing non-acceptable activities.
+
+---
+
+## Defense in Depth
+
+![Defense in Depth Image](Defense-in-Depth.png)
