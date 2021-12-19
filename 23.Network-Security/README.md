@@ -32,3 +32,9 @@ A user, system, process, or application is only given the permissions necessary 
 ## Defense in Depth
 
 ![Defense in Depth Image](Defense-in-Depth.png)
+
+---
+
+## Intranet, Extranet and the Internet
+
+![Intranet, Extranet and the Internet Image](Intranet-Extranet-and-the-Internet)
