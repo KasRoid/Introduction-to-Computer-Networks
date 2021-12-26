@@ -14,7 +14,7 @@ All 3 equally important & intertwined
 
 A user, system, process, or application is only given the permissions necessary to complete its assigned tasks or functions and nothing more.
 
-- Implemeting Least Privilege:
+- Implementing Least Privilege:
   - Security Groups
   - Account Standardization
   - Account Management Processes & Procedures
@@ -95,10 +95,10 @@ A user, system, process, or application is only given the permissions necessary 
 ### 2nd Gen: Stateful Inspection Firewalls
 
 - Operate at the Transport Layer of the OSI Model (Layer 4) and monitor TCP sessions.
-- Determin the legitimacy of a requested session by monitoring the 3-way handshake between packets.
+- Determine the legitimacy of a requested session by monitoring the 3-way handshake between packets.
 - Valid TCP sessions are allowed to pass, while invalid and terminated sessions are not.
   - Hackers can alter the 3-way handshake process or malicious reasons.
-  - If the firewall believes an attack is occuring, it will block the traffic.
+  - If the firewall believes an attack is occurring, it will block the traffic.
 
 ### 3rd Gen: Application-Level Firewalls
 
@@ -107,6 +107,16 @@ A user, system, process, or application is only given the permissions necessary 
   - Filter: Filters packets based on an application or service (FTP, SMTP, etc.).
   - Caching: Provides caching services, for example:
     - When you request a page from a website, proxy server will retrieve it and then cache it in its memory.
-    - The next time someone requests that website, the proxy server can retrive it from its cache.
+    - The next time someone requests that website, the proxy server can retrieve it from its cache.
     - This saves Internet bandwidth.
   - Logging: Has the ability to log user activity for auditing purposes.
+
+---
+
+## Web Proxy Server
+
+- Acts on behalf of computers within a LAN to retrieve web content from the Internet.
+- Specifically, proxy servers can provide the following services.
+  - Filtering: Can acts as a filtering service, similar to a firewall. Can restrict and filter out unwanted websites (gambling, social media, etc.)
+  - Content Checking; Similar to an application-layer firewall, a proxy server can verify that content is valid and doesn't contain malicious content.
+  - Caching: When you request a page from a website, the proxy server will retrieve it and then cache it in its memory. The next time someone requests that website, the proxy server can retrieve it from its cache - this saves Internet bandwidth.
