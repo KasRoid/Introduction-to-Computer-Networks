@@ -120,3 +120,13 @@ A user, system, process, or application is only given the permissions necessary 
   - Filtering: Can acts as a filtering service, similar to a firewall. Can restrict and filter out unwanted websites (gambling, social media, etc.)
   - Content Checking; Similar to an application-layer firewall, a proxy server can verify that content is valid and doesn't contain malicious content.
   - Caching: When you request a page from a website, the proxy server will retrieve it and then cache it in its memory. The next time someone requests that website, the proxy server can retrieve it from its cache - this saves Internet bandwidth.
+
+---
+
+## Network Intrusion Detection & Prevention
+
+### Intrusion Detection & Prevention Systems (IDS/IPS)
+
+- Are designed to detected attack on a network and respond passively or actively.
+- An Intrusion Detection System (IDS) is **Passive**, meaning it's response is logging and notifying.
+- An Intrusion Prevention System (IPS) is **Active**, meaning it'll change the network environment to stop an attack, such as changing ACLs or closing processes, sessions, or ports.
