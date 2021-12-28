@@ -19,3 +19,15 @@ Step 3: Select the type of network - Centralized or not
 Step 4: Select the proper equipment
 Step 5: Draw the network
 Step 6&7: Write the specifications & build it
+
+---
+
+## Step 1: Identify the Uses of the Network
+
+- This aligns with our network planning phase
+- Need to determine why the organization needs a network
+- Find out via interviews:
+  - The organization's core business (What do they do?)
+  - How they want to change & improve business operations (How can a network help the business?)
+- You want to interview the owners, executives, managers, operations staff, etc.
+- The more you find out about hte business, the better!
