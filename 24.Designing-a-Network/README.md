@@ -31,3 +31,12 @@ Step 6&7: Write the specifications & build it
   - How they want to change & improve business operations (How can a network help the business?)
 - You want to interview the owners, executives, managers, operations staff, etc.
 - The more you find out about hte business, the better!
+
+---
+
+## Step 2: List Which Tasks Execute on Which Computers
+
+- Know which applications and tasks have to be performed at each of the computers on the network
+- You need to know how powerful each computer should be and what each computer should be capable of (CPU, RAM, HD Space, Monitor Size)
+- This goes for both server and client computers
+- Example: A computer for data entry versus a computer for video editing
