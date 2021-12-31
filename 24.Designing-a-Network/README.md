@@ -40,3 +40,14 @@ Step 6&7: Write the specifications & build it
 - You need to know how powerful each computer should be and what each computer should be capable of (CPU, RAM, HD Space, Monitor Size)
 - This goes for both server and client computers
 - Example: A computer for data entry versus a computer for video editing
+
+---
+
+## Step 3: Select the Type of Network - Centralized or Not?
+
+- Will a peer-to-peer network suffice or do you require a client-server architecture?
+- Types of servers services:
+  - File server, print server, email server, application server, web server, database server, authentication server, backup server, and so forth.
+  - In-House Physical Server(s) or Cloud-based Infrastructure as Service(IaaS)?
+    - Multiple Physical Servers In-House or a Single Server Utilizing Virtualization?
+    - Utilization of a Cloud Provider: Amazon AWS, Microsoft Azure, etc.?
