@@ -78,3 +78,17 @@ Step 6&7: Write the specifications & build it
   - DropBox
   - iCloud
 - Concern: Security, HIPPA-Certified, PCi-DSS, etc.
+
+---
+
+### Draw the Network
+
+- By the time you reach this step, you should know the following:
+  - The purpose of the network
+  - The specifics of the network's use
+  - The number of users and computers
+  - Whether the network will be centralized or not
+  - The network topology
+- In this step, you want to draw the physical and logical design:
+  - Physical layout of IT equipment (blueprint)
+  - Logical layout of IP addressing schema
