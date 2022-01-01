@@ -51,3 +51,30 @@ Step 6&7: Write the specifications & build it
   - In-House Physical Server(s) or Cloud-based Infrastructure as Service(IaaS)?
     - Multiple Physical Servers In-House or a Single Server Utilizing Virtualization?
     - Utilization of a Cloud Provider: Amazon AWS, Microsoft Azure, etc.?
+
+---
+
+## Step 4: Select the Proper Equipment
+
+- Determine what networking equipment is right for the custom-tailored network design.
+- Consider everything you had done so far:
+  - Identified the Uses of the Network
+  - Identified what tsk is done on what computer
+  - Peer-to-Peer or Client/Server architecture selection
+- Also consider:
+  - Monetary Constraints
+  - Reliability, Security, Availability, and Scalability Requirements
+
+### Cloud Computing
+
+- Software as a Services (SaaS)
+  - Office 365
+  - SharePoint Online
+- Infrastructure as a Service (IaaS)
+  - Amazon Web Services (AWS)
+  - Microsoft Azure
+- Cloud-Based Data Storage & Backups
+  - Microsoft OneDrive
+  - DropBox
+  - iCloud
+- Concern: Security, HIPPA-Certified, PCi-DSS, etc.
