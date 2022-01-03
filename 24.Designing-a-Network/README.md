@@ -81,7 +81,7 @@ Step 6&7: Write the specifications & build it
 
 ---
 
-### Draw the Network
+## Step 5: Draw the Network
 
 - By the time you reach this step, you should know the following:
   - The purpose of the network
@@ -92,3 +92,28 @@ Step 6&7: Write the specifications & build it
 - In this step, you want to draw the physical and logical design:
   - Physical layout of IT equipment (blueprint)
   - Logical layout of IP addressing schema
+
+---
+
+## Step 6: Write the Specifications
+
+- The purpose of the specification document is:
+  - To limit the scope of the network design; prevents scope creep
+  - To provide a reference document for network administrators
+- Should include:
+  - Why the organization is building the network
+  - What the network will be used for
+  - How many people and computers the network will support
+  - If the network is peer-to-peer or client-server
+  - The response time and throughput requirements
+  - The security requirements (physical and logical)
+  - The reliability requirements (availability)
+  - The scalability requirements
+  - Specifications & justification for all hardware and software
+
+---
+
+## Step 7: Build it
+
+- After you've completed steps 1 through 6 and the organization agrees, build the network.
+- But make sure you follow some soft of project management lifecycle, such as the Waterfall lifecycle, depicted here.
